@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0647A8">
+  <meta name="description" content="工脉智感——船舶柴油机喷油脉动‘心电图’监测系统 Android 与 Windows 版本下载。">
+  <title>工脉智感 · 船舶柴油机喷油脉动监测系统</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="工脉智感首页">
+        <img src="assets/logo.svg" alt="" width="48" height="48">
+        <span>工脉智感</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开导航">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#about">产品介绍</a>
+        <a href="#features">功能亮点</a>
+        <a href="#download">下载</a>
+        <a href="#install">安装说明</a>
+      </nav>
+      <a class="button button-primary header-cta" data-download="android" href="downloads/GongMaiZhigan-Android-Tablet-v1.1.0.apk">下载 Android 版</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">船舶柴油机喷油脉动<br><span>“心电图”监测系统</span></h1>
+          <p class="hero-summary">三通道高压油管喷油脉动监测 · 异常趋势提示 · CSV 连续记录</p>
+          <div class="hero-actions">
+            <a class="button button-primary" data-download="android" href="downloads/GongMaiZhigan-Android-Tablet-v1.1.0.apk">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2Zm7-18v11.2l3.6-3.6L17 11l-5 5-5-5 1.4-1.4 2.6 2.6V2h2Z"/></svg>
+              下载 Android 版
+            </a>
+            <a class="button button-secondary" data-download="windows" href="downloads/GongMaiZhigan-Windows-v1.1.0.exe">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 5.5 10.5 4v7H3V5.5Zm8.5-1.7L21 2v9h-9.5V3.8ZM3 12h7.5v7L3 17.5V12Zm8.5 0H21v9l-9.5-1.8V12Z"/></svg>
+              下载 Windows 版
+            </a>
+          </div>
+          <a class="text-link" href="#about">了解工脉智感 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="product-stage" aria-label="Android 平板版软件界面预览">
+          <div class="device-frame">
+            <div class="device-camera"></div>
+            <img src="assets/app-tablet.jpg" alt="工脉智感 Android 平板版三通道实时喷油脉动界面">
+          </div>
+        </div>
+      </div>
+      <div class="hero-sea" aria-hidden="true">
+        <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+          <path d="M0 76c194-67 324 52 516 15 192-38 330-73 501-27 160 43 282 23 423-29v115H0Z" fill="#DCEBFF"/>
+          <path d="M0 103c193-44 354 35 531 10 208-29 314-69 505-27 145 31 263 23 404-11v75H0Z" fill="#0C64D7"/>
+          <path d="M0 126c179-25 363 22 542 6 189-17 342-49 502-16 133 28 264 22 396-3v37H0Z" fill="#0647A8"/>
+        </svg>
+        <svg class="hero-ship-mark" viewBox="0 0 456 456">
+          <rect x="219" y="94" width="18" height="49" rx="9"/>
+          <rect x="181" y="132" width="94" height="20" rx="10"/>
+          <path d="M174 160c-8 0-14 6-14 14v43h136v-43c0-8-6-14-14-14H174z"/>
+          <rect x="139" y="203" width="178" height="47" rx="11"/>
+          <path d="M113 229c-10 4-14 12-11 22l30 84c5 15 14 23 29 23h134c15 0 24-8 29-23l30-84c3-10-1-18-11-22l-55-22H168l-55 22z"/>
+        </svg>
+        <svg class="hero-pulse-line" viewBox="0 0 720 120" preserveAspectRatio="none">
+          <path d="M4 67h196l22-31 34 64 38-95 42 110 41-86 38 38h301"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <h2 class="section-title" id="about-title">关于工脉智感</h2>
+          <p class="about-copy">工脉智感面向船舶柴油机高压油管，使用外贴式柔性电容传感器感知喷油脉动引起的管壁微振动与微形变。系统通过 STM32、PCAP01 与 HC-05/串口完成 C1/C2/C3 三通道采集，在 Android 和 Windows 端呈现连续“喷射心电图”，辅助多缸一致性比较、维修前后对比和异常趋势提示。</p>
+          <p class="scope-note"><strong>说明：</strong>本系统测量的是油管外壁响应，不直接等同于管内绝对压力或独立故障诊断结论。</p>
+        </div>
+        <div class="signal-mark" aria-hidden="true">
+          <img src="assets/logo.svg" alt="">
+          <svg viewBox="0 0 420 110"><path d="M4 60h76l20-28 34 62 39-88 43 100 41-78 36 32h123"/></svg>
+        </div>
+      </div>
+      <div class="container process-flow" aria-label="系统数据流程">
+        <div><span>01</span><strong>柔性电容传感器</strong><small>外贴感知管壁响应</small></div>
+        <i aria-hidden="true">→</i>
+        <div><span>02</span><strong>STM32 / PCAP01</strong><small>三通道电容数据采集</small></div>
+        <i aria-hidden="true">→</i>
+        <div><span>03</span><strong>HC-05 / 串口</strong><small>无线或有线数据传输</small></div>
+        <i aria-hidden="true">→</i>
+        <div><span>04</span><strong>Android / Windows</strong><small>曲线、分析与 CSV 记录</small></div>
+      </div>
+    </section>
+
+    <section class="section features" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <h2 class="section-title" id="features-title">让喷油脉动像心电图一样清晰</h2>
+        <p class="section-lead">三路波形同步展示，把幅值、相对时序、持续时间和稳定性放在同一个视野中。</p>
+        <div class="feature-layout">
+          <figure class="app-preview">
+            <img src="assets/app-tablet.jpg" alt="工脉智感三通道实时曲线与状态日志">
+          </figure>
+          <div class="feature-list">
+            <article><span>01</span><div><h3>三通道实时曲线</h3><p>C1、C2、C3 喷油脉动同步展示，支持单通道放大查看。</p></div></article>
+            <article><span>02</span><div><h3>喷油事件分析</h3><p>提取起始、峰值、截止、周期、能量和稳定性特征。</p></div></article>
+            <article><span>03</span><div><h3>HC-05 无线采集</h3><p>Android 端直接连接已配对 HC-05，后台可持续接收数据。</p></div></article>
+            <article><span>04</span><div><h3>CSV 连续记录</h3><p>完整保存时间、通道、电容值与原始数据，便于回溯对比。</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section download" id="download" aria-labelledby="download-title">
+      <div class="container">
+        <h2 class="section-title section-title-light" id="download-title">选择你的版本</h2>
+        <div class="download-layout">
+          <div class="download-list">
+            <article class="download-row">
+              <div class="platform-icon android-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m7.2 5.6-1.1-2 .9-.5 1.2 2.1A7.8 7.8 0 0 1 12 4.3c1.4 0 2.7.3 3.8.9L17 3.1l.9.5-1.1 2A6.3 6.3 0 0 1 19 10H5a6.3 6.3 0 0 1 2.2-4.4ZM8.5 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm7 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM5 11h14v6.5a1.5 1.5 0 0 1-1.5 1.5H17v2a1 1 0 0 1-2 0v-2H9v2a1 1 0 0 1-2 0v-2h-.5A1.5 1.5 0 0 1 5 17.5V11Zm-2 0a1 1 0 0 1 1 1v5a1 1 0 0 1-2 0v-5a1 1 0 0 1 1-1Zm18 0a1 1 0 0 1 1 1v5a1 1 0 0 1-2 0v-5a1 1 0 0 1 1-1Z"/></svg>
+              </div>
+              <div class="download-copy"><h3>Android 平板版</h3><p>Android 8.0 及以上 · 固定横屏 · HC-05 经典蓝牙 · <span data-meta="android-size">37.76 MB</span></p></div>
+              <a class="button button-accent" data-download="android" href="downloads/GongMaiZhigan-Android-Tablet-v1.1.0.apk">下载 APK</a>
+            </article>
+            <article class="download-row">
+              <div class="platform-icon windows-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 5.5 10.5 4v7H3V5.5Zm8.5-1.7L21 2v9h-9.5V3.8ZM3 12h7.5v7L3 17.5V12Zm8.5 0H21v9l-9.5-1.8V12Z"/></svg>
+              </div>
+              <div class="download-copy"><h3>Windows 电脑端</h3><p>Windows 10/11 · 串口采集与三缸分析 · <span data-meta="windows-size">0.09 MB</span></p></div>
+              <a class="button button-accent" data-download="windows" href="downloads/GongMaiZhigan-Windows-v1.1.0.exe">下载 EXE</a>
+            </article>
+          </div>
+          <aside class="qr-panel" aria-label="下载页二维码">
+            <img id="download-qr" src="assets/download-qr.svg" alt="手机扫码打开工脉智感下载页">
+            <strong>手机扫码打开下载页</strong>
+          </aside>
+        </div>
+        <div class="release-meta" aria-label="发布信息">
+          <div><span>版本号</span><strong data-meta="version">1.1.0</strong></div>
+          <div><span>发布日期</span><strong data-meta="date">2026-07-05</strong></div>
+          <div><span>Android SHA-256</span><code data-meta="android-sha">构建后生成</code></div>
+          <div><span>Windows SHA-256</span><code data-meta="windows-sha">构建后生成</code></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section install" id="install" aria-labelledby="install-title">
+      <div class="container">
+        <h2 class="section-title" id="install-title">安装说明</h2>
+        <div class="install-grid">
+          <article>
+            <h3><span aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7.2 5.6 6.1 3.6l.9-.5 1.2 2.1A7.8 7.8 0 0 1 12 4.3c1.4 0 2.7.3 3.8.9L17 3.1l.9.5-1.1 2A6.3 6.3 0 0 1 19 10H5a6.3 6.3 0 0 1 2.2-4.4ZM5 11h14v7H5v-7Zm-3 1a1 1 0 0 1 2 0v5a1 1 0 0 1-2 0v-5Zm18 0a1 1 0 0 1 2 0v5a1 1 0 0 1-2 0v-5ZM8 18h2v3a1 1 0 0 1-2 0v-3Zm6 0h2v3a1 1 0 0 1-2 0v-3Z"/></svg></span> Android 平板版</h3>
+            <ol>
+              <li>下载 APK 到 Android 平板。</li>
+              <li>如系统提示，允许浏览器或文件管理器安装未知应用。</li>
+              <li>完成安装后，先在系统蓝牙中与 HC-05 配对。</li>
+              <li>打开“工脉智感”，授予蓝牙和通知权限后连接。</li>
+            </ol>
+          </article>
+          <article>
+            <h3><span aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 5.5 10.5 4v7H3V5.5Zm8.5-1.7L21 2v9h-9.5V3.8ZM3 12h7.5v7L3 17.5V12Zm8.5 0H21v9l-9.5-1.8V12Z"/></svg></span> Windows 电脑端</h3>
+            <ol>
+              <li>下载 EXE 到 Windows 电脑。</li>
+              <li>首次运行如出现安全提示，确认文件校验值后选择继续。</li>
+              <li>确认电脑已启用 .NET Framework 4.8。</li>
+              <li>选择蓝牙串口或 USB 串口后开始采集。</li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand brand-light"><img src="assets/logo.svg" alt="" width="52" height="52"><span>工脉智感</span></div>
+      <p>船舶柴油机喷油脉动监测系统</p>
+      <small>© <span id="year">2026</span> 工脉智感</small>
+    </div>
+  </footer>
+</body>
+</html>
