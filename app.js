@@ -30,11 +30,11 @@
     const element = document.querySelector(selector);
     if (element) element.textContent = value || fallback;
   };
-  setText('[data-meta="version"]', config.version, "1.1.0");
-  setText('[data-meta="date"]', config.releaseDate, "2026-07-05");
-  setText('[data-meta="android-size"]', config.android?.size, "37.76 MB");
+  setText('[data-meta="version"]', config.version, "1.2.0");
+  setText('[data-meta="date"]', config.releaseDate, "2026-07-08");
+  setText('[data-meta="android-size"]', config.android?.size, "38.15 MB");
   setText('[data-meta="windows-size"]', config.windows?.size, "0.09 MB");
-  setText('[data-meta="android-sha"]', config.android?.sha256, "构建后生成");
+  setText('[data-meta="android-sha"]', config.android?.sha256, "AD8307C8300E4EC92839C7E34A9F95729D46E0CDE6B1FAF28F50F2CF39212874");
   setText('[data-meta="windows-sha"]', config.windows?.sha256, "构建后生成");
 
   const qr = document.querySelector("#download-qr");

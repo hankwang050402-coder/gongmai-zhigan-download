@@ -1,12 +1,12 @@
 window.GONGMAI_SITE_CONFIG = {
-  version: "1.1.0",
-  releaseDate: "2026-07-05",
+  version: "1.2.0",
+  releaseDate: "2026-07-08",
   pageUrl: "https://hankwang050402-coder.github.io/gongmai-zhigan-download/",
   qrImage: "assets/download-qr.svg",
   android: {
-    url: "https://github.com/hankwang050402-coder/gongmai-zhigan-download/releases/download/v1.1.0/GongMaiZhigan-Android-Tablet-v1.1.0.apk",
-    size: "37.76 MB",
-    sha256: "3DE5795E1C29DA2F2C9243ECCCABC0762E620D4101C2FCE990BE8C388EE5CACA"
+    url: "https://github.com/hankwang050402-coder/gongmai-zhigan-download/releases/download/v1.2.0/GongMaiZhigan-Android-Universal-v1.2.0.apk",
+    size: "38.15 MB",
+    sha256: "AD8307C8300E4EC92839C7E34A9F95729D46E0CDE6B1FAF28F50F2CF39212874"
   },
   windows: {
     url: "https://github.com/hankwang050402-coder/gongmai-zhigan-download/releases/download/v1.1.0/GongMaiZhigan-Windows-v1.1.0.exe",
