@@ -30,12 +30,12 @@
     const element = document.querySelector(selector);
     if (element) element.textContent = value || fallback;
   };
-  setText('[data-meta="version"]', config.version, "1.2.0");
-  setText('[data-meta="date"]', config.releaseDate, "2026-07-08");
-  setText('[data-meta="android-size"]', config.android?.size, "38.15 MB");
-  setText('[data-meta="windows-size"]', config.windows?.size, "0.09 MB");
-  setText('[data-meta="android-sha"]', config.android?.sha256, "AD8307C8300E4EC92839C7E34A9F95729D46E0CDE6B1FAF28F50F2CF39212874");
-  setText('[data-meta="windows-sha"]', config.windows?.sha256, "构建后生成");
+  setText('[data-meta="version"]', config.version, "1.3.0");
+  setText('[data-meta="date"]', config.releaseDate, "2026-08-19");
+  setText('[data-meta="android-size"]', config.android?.size, "37.99 MB");
+  setText('[data-meta="windows-size"]', config.windows?.size, "0.10 MB");
+  setText('[data-meta="android-sha"]', config.android?.sha256, "8B0BC546E7A7ACA15E64E77AED3C27C0770FE03313D8C590007BB4511A1C2338");
+  setText('[data-meta="windows-sha"]', config.windows?.sha256, "9042C75755268E9339FE0379033218E8A55CD98D9D22CD2CE19FF1E0547CB37F");
 
   const qr = document.querySelector("#download-qr");
   if (qr && config.qrImage) qr.src = config.qrImage;
